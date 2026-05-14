@@ -1,0 +1,36 @@
+.container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.employee-form{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid ;
+    border-radius: 10px;
+}
+.form-row{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.form-row label{
+    margin-bottom: 5px;
+    from-weight:bold;
+}
+.from-row input{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(19, 203, 111);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
